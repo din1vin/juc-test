@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * @author dingliang
  * @since 2021/4/15
  **/
-public class C2_WaitAndNotify {
+public class C2_Wait {
 
     private static volatile Object resourceA = new Object();
     private static volatile Object resourceB = new Object();
